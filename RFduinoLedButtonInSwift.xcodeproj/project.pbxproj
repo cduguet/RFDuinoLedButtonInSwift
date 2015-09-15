@@ -13,6 +13,11 @@
 		4080F4631BA8ACC200573116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4080F4621BA8ACC200573116 /* Images.xcassets */; };
 		4080F4661BA8ACC200573116 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4080F4641BA8ACC200573116 /* LaunchScreen.xib */; };
 		4080F4721BA8ACC200573116 /* RFduinoLedButtonInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080F4711BA8ACC200573116 /* RFduinoLedButtonInSwiftTests.swift */; };
+		4080F4881BA8ACFB00573116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080F47D1BA8ACFB00573116 /* AppDelegate.m */; };
+		4080F4891BA8ACFB00573116 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080F47F1BA8ACFB00573116 /* CustomCellBackground.m */; };
+		4080F48A1BA8ACFB00573116 /* RFduino.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080F4811BA8ACFB00573116 /* RFduino.m */; };
+		4080F48B1BA8ACFB00573116 /* RfduinoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080F4841BA8ACFB00573116 /* RfduinoManager.m */; };
+		4080F48C1BA8ACFB00573116 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080F4871BA8ACFB00573116 /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,19 @@
 		4080F46B1BA8ACC200573116 /* RFduinoLedButtonInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFduinoLedButtonInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4080F4701BA8ACC200573116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4080F4711BA8ACC200573116 /* RFduinoLedButtonInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFduinoLedButtonInSwiftTests.swift; sourceTree = "<group>"; };
+		4080F47C1BA8ACFB00573116 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4080F47D1BA8ACFB00573116 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4080F47E1BA8ACFB00573116 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		4080F47F1BA8ACFB00573116 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		4080F4801BA8ACFB00573116 /* RFduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduino.h; sourceTree = "<group>"; };
+		4080F4811BA8ACFB00573116 /* RFduino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFduino.m; sourceTree = "<group>"; };
+		4080F4821BA8ACFB00573116 /* RFduinoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoDelegate.h; sourceTree = "<group>"; };
+		4080F4831BA8ACFB00573116 /* RfduinoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfduinoManager.h; sourceTree = "<group>"; };
+		4080F4841BA8ACFB00573116 /* RfduinoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfduinoManager.m; sourceTree = "<group>"; };
+		4080F4851BA8ACFB00573116 /* RFduinoManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoManagerDelegate.h; sourceTree = "<group>"; };
+		4080F4861BA8ACFB00573116 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		4080F4871BA8ACFB00573116 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		4080F48F1BA8AEC400573116 /* RFduinoLedButtonInSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFduinoLedButtonInSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,7 @@
 		4080F44D1BA8ACC100573116 = {
 			isa = PBXGroup;
 			children = (
+				4080F47B1BA8ACFB00573116 /* rfduino */,
 				4080F4581BA8ACC200573116 /* RFduinoLedButtonInSwift */,
 				4080F46E1BA8ACC200573116 /* RFduinoLedButtonInSwiftTests */,
 				4080F4571BA8ACC200573116 /* Products */,
@@ -77,6 +96,7 @@
 		4080F4581BA8ACC200573116 /* RFduinoLedButtonInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4080F48F1BA8AEC400573116 /* RFduinoLedButtonInSwift-Bridging-Header.h */,
 				4080F45B1BA8ACC200573116 /* AppDelegate.swift */,
 				4080F45D1BA8ACC200573116 /* ViewController.swift */,
 				4080F45F1BA8ACC200573116 /* Main.storyboard */,
@@ -110,6 +130,25 @@
 				4080F4701BA8ACC200573116 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4080F47B1BA8ACFB00573116 /* rfduino */ = {
+			isa = PBXGroup;
+			children = (
+				4080F47C1BA8ACFB00573116 /* AppDelegate.h */,
+				4080F47D1BA8ACFB00573116 /* AppDelegate.m */,
+				4080F47E1BA8ACFB00573116 /* CustomCellBackground.h */,
+				4080F47F1BA8ACFB00573116 /* CustomCellBackground.m */,
+				4080F4801BA8ACFB00573116 /* RFduino.h */,
+				4080F4811BA8ACFB00573116 /* RFduino.m */,
+				4080F4821BA8ACFB00573116 /* RFduinoDelegate.h */,
+				4080F4831BA8ACFB00573116 /* RfduinoManager.h */,
+				4080F4841BA8ACFB00573116 /* RfduinoManager.m */,
+				4080F4851BA8ACFB00573116 /* RFduinoManagerDelegate.h */,
+				4080F4861BA8ACFB00573116 /* ScanViewController.h */,
+				4080F4871BA8ACFB00573116 /* ScanViewController.m */,
+			);
+			path = rfduino;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4080F4891BA8ACFB00573116 /* CustomCellBackground.m in Sources */,
+				4080F48B1BA8ACFB00573116 /* RfduinoManager.m in Sources */,
 				4080F45E1BA8ACC200573116 /* ViewController.swift in Sources */,
 				4080F45C1BA8ACC200573116 /* AppDelegate.swift in Sources */,
+				4080F48C1BA8ACFB00573116 /* ScanViewController.m in Sources */,
+				4080F4881BA8ACFB00573116 /* AppDelegate.m in Sources */,
+				4080F48A1BA8ACFB00573116 /* RFduino.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +387,7 @@
 				INFOPLIST_FILE = RFduinoLedButtonInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RFduinoLedButtonInSwift/RFDuinoLedButtonInSwift-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,6 +398,7 @@
 				INFOPLIST_FILE = RFduinoLedButtonInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RFduinoLedButtonInSwift/RFDuinoLedButtonInSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
